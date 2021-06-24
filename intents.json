@@ -1,0 +1,93 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "responses": ["Hello,welcome to A.V.C college of engineering", "welcome to A.V.C how can I help you?"],
+     "context": [""]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+     "context": [""]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure"],
+     "context": [""]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+     "context": [""]
+    },
+    {"tag": "options",
+     "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+     "responses": ["I can guide you through Adverse management problems, order tracking, person to be contacted and Department related queries","I can provide support related to following problems technical query,management related query,order related query,tracking related query,procurement query,outsourcing problem,manufacturing delay,"],
+     "context": [""]
+    },
+    {"tag": "department_analysis",
+         "patterns": ["what are department do you have?", "how many department are there", "can you give the list of the departments?" ],
+     "responses": ["there are 7 UG departments and 3 PG departments","7 UG departments and 3 PG departments"],
+     "context": [""]
+    },
+    {"tag": "UG_departments",
+     "patterns": ["what are the departments?","what are the UG departments?"],
+     "responses": ["B.tech IT,B.E Computer science,B.E mechanical,B.E Electricals and Electronics,B.E Instumentation control,B.E electrical communication,B.E Civil"],
+     "context": [""]
+    },
+   {"tag": "PG_departments",
+     "patterns": ["what are the departments?","what are the PG departments?"],
+     "responses": ["M.C.A,M.B.A,M.E"],
+     "context": [""]
+    },
+{"tag": "Location",
+     "patterns": ["where is the college located","What is the Location of college?"],
+     "responses": ["It is in mannambandhal","It is in mannambandhal,Mayiladuthurai"],
+     "context": [""]
+    },
+    {"tag": "Fees_information",
+     "patterns": ["what is the Fees structure for UG?","what is the fees details?"],
+     "responses": ["50,000 for per sem,if your FIRST GRADUATE it will be enough to pay 50% of the fees"],
+     "context": [""]
+    },
+    {"tag": "seat_availabillity",
+     "patterns": ["how many seats are available for IT?","how many seats are available for B.Tech IT?"],
+     "responses": ["there are 7 seats only available,hurry up!"],
+     "context": [""]
+    },
+    {"tag": "it_seat_availabillity",
+     "patterns": ["how many seats are available for IT?","how many seats are available for B.Tech IT?"],
+     "responses": ["there are 7 seats only available,hurry up!"],
+     "context": [""]
+    },
+     {"tag": "cse_seat_availabillity",
+     "patterns": ["how many seats are available for CSE?","how many seats are available for computer science?"],
+     "responses": ["there are 9 seats only available,hurry up!"],
+     "context": [""]
+    },
+     {"tag": "ece_seat_availabillity",
+     "patterns": ["how many seats are available for ece?","how many seats are available for B>E ece?"],
+     "responses": ["there are 7 seats only available"],
+     "context": [""]
+    },
+      {"tag": "mechanical_seat_availabillity",
+     "patterns": ["how many seats are available for mech?","how many seats are available for B.E.Mechanical?"],
+     "responses": ["there are 20 seats only available"],
+     "context": [""]
+    },
+    {"tag": "eee_seat_availabillity",
+     "patterns": ["how many seats are available for EEE?","how many seats are available for B.E EEE?"],
+     "responses": ["there are 23 seats only available"],
+     "context": [""]
+    },
+    {"tag": "civil_seat_availabillity",
+     "patterns": ["how many seats are available for civil?","how many seats are available for B.E civil?"],
+     "responses": ["there are 25 seats are available"],
+     "context": [""]
+},
+    {"tag":"documents",
+    "patterns":["what are the documents should i carry during addmission?","what are the documents are needed?"],
+    "responses":["aadhar card,community certificate,12th school T.C,12th and 10th marksheet"],
+    "context":[""]
+}
+]
+}
