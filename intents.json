@@ -1,7 +1,7 @@
 {"intents": [
     {"tag": "greeting",
      "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-     "responses": ["Hello,welcome to A.V.C college of engineering", "welcome to A.V.C how can I help you?"],
+     "responses": ["Hello,welcome to thangavelu college"],
      "context": [""]
     },
     {"tag": "goodbye",
@@ -41,7 +41,7 @@
     },
 {"tag": "Location",
      "patterns": ["where is the college located","What is the Location of college?"],
-     "responses": ["It is in mannambandhal","It is in mannambandhal,Mayiladuthurai"],
+     "responses": ["It is in Karapakam,Chennai,","It is in Karapakam,Chennai"],
      "context": [""]
     },
     {"tag": "Fees_information",
